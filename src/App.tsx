@@ -5,6 +5,7 @@ import Descricao from './components/Descricao';
 import Pai from './components/Pai';
 import { Soma } from './components/Soma';
 import { UserInfoForm } from './components/UserInfoForm';
+import UseState from './components/UseState';
 import Welcome from './components/Welcome';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Counter /> 
       <UserInfoForm />
       <Button />
+      <UseState />
     </>
   );
 }
